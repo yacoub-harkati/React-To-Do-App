@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  border-radius: 10px;
+  border: 1px solid #888;
+}
+
+.label {
+  max-width: 100%;
+  word-break: break-word;
+}
+
+.to-do-entries{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #888;
+  padding: 1rem;
+
+}
+
+.done {
+  color: #00e79a;
+  text-transform: lowercase;
+}
+
+label, p {
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0.7em 0 0.5em;
+}
+input[type=text] {
+  display: flex;
+  padding-inline-start: 1rem;
+  align-items: center;
+  width: 90%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: 2px solid #888;
+}
+
+.remove {
+  color: #ff5151;
+}
+
+.done-label {
+  text-decoration: line-through solid rgb(236, 236, 236) 1px ;
+  color: #00e79a;
+  opacity: 0.7;
+}
+
+.one-todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.to-do-list {
+  padding: 0 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: start;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+ul li:hover{
+  color: #61dafbaa;
+}
